@@ -6,26 +6,25 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.3.1/css/all.min.css" integrity="sha512-QeR2VH+lsBE5LSAe1Q5EnTBbe7XTBubt8dG93Y7gidSgdMCr8nVqKcfKAMyN96SV8KDbZVTDXChatu5G2KQGzg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
-    <title>Document</title>
-    <link rel="stylesheet" href="mais.css">
+<link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">    
+<link rel="stylesheet" href="mais.css">
+
+<title>NEXT-WORK</title>
 </head>
 <body>
     <header>
       <div id="logo">
-        <h2>Emprega Mais</h2>
-        <p>aaaaaaaaaaa</p>
-      </div>
-      <nav>
-        <ul id="lista">
+        <img src="c:\Users\henry\Downloads\next work.png" alt="">
+    </div>
+    <div class="cell">
+    <button id="menu"><i class="fa-solid fa-bars"></i></button>
+    <nav>
+          <ul id="lista">
             <li class="item">
                     <a href="">Início</a>
                 </li>
                 <li class="item">
                     <a href="">Vagas</a>
-                </li>
-                <li class="item">
-                    <a href="">Cursos</a>
                 </li>
                 <li class="item">
                     <a href="">dicas</a>
@@ -37,15 +36,25 @@
                     <a href="">Sobre Nós</a>
                 </li>
             </ul>
-             <button class="entrar">ENTRAR</button>
-             <button class="azul">CADASTRE-SE</button>
+            </div>
+            <div class="perfil">
+             <button id="azul"><img id="perf" src="c:\Users\henry\Downloads\ChatGPT_Image_28_de_ago._de_2026__16_11_44-removebg-preview.png" alt=""></button>
+             
+             <div id="painel">
+                 <h3>MEU PERFIL</h3>
+                 <hr>
+                 <p>nome aqui</p>
+                 <button class="entrar">ENTRAR NO PERFIL</button>
+             </div>
+
+            </div>
       </nav>
     </header>
     <main>
        <section class="hero">
         <div id="principal">
             <h1>Oportunidades que <br><span>transfomam vidas</span></h1>
-            <p>Encontre vagas de emprego, contrate serviços confiáveis e descubra <br>um mundo de possibilidades.</p>
+            <p class="para">Encontre vagas de emprego, contrate serviços confiáveis e descubra <br>um mundo de possibilidades.</p>
         </div>
         <div class="barra">
               <input type="text" placeholder="cargo, palavra-chave ou empresa" id="cargo">  
@@ -54,78 +63,73 @@
                 <option value="">NATAL/RN</option>
                 <option value="">SÂO GONÇALO/RN</option>
             </select>
-            <button class="btn">Buscar Vagas</button>
+            <button class="btn">Buscar vagas</button>
         </div>
         <div class="elementos">
 
         </div>
        </section>
        <section class="fadback">
-        <div> 
+        <div class="destaque"> 
             <i class="fa-regular fa-envelope"></i>
-            <p>Vegas disponíveis 
-                <br>Oportunidades esperando por voce.</p>
+            <div class="blocos">
+            <h5><span class="import">Vagas disponíveis</span></h5> 
+               <p class="para">Oportunidades esperando <br>por voce.</p>
+             </div>      
         </div>
         
-        <div> 
-            <i class="fa-regular fa-envelope"></i>
-            <p>vgas abertas </p>
+        <div class="destaque"> 
+            <i class="fa-regular fa-building"></i>
+            <div class="blocos">
+            <h5><span class="import">Empresas parceiras </span></h5>
+            <p class="para">Conecte-se com empresas <br> em busca de profissionais.</p>
+        </div>
         </div>
         
-        <div> 
-            <i class="fa-regular fa-envelope"></i>
-            <p>vgas abertas </p>
+        <div class="destaque"> 
+           <i class="fa-regular fa-user"></i>
+           <div class="blocos">
+           <h5><span class="import">na sua região</span></h5> 
+           <p class="para">Encontre vagas próximas de você.</p>
+           </div>
         </div>
         
-        <div> 
-            <i class="fa-regular fa-envelope"></i>
-            <p>vgas abertas </p>
+        <div class="destaque"> 
+            <i class="fa-solid fa-chart-line"></i>
+            <div class="blocos">
+           <h5> <span class="import">na sua região</span> </h5>
+               <p class="para">Encontre vagas próximas de você.</p>
+            </div> 
         </div>
-        
-        <div> 
-            <i class="fa-regular fa-envelope"></i>
-            <p>vgas abertas </p>
-        </div>
-        
-        <div> 
-            <i class="fa-regular fa-envelope"></i>
-            <p>vgas abertas </p>
-        </div>
-        
-        <div> 
-            <i class="fa-regular fa-envelope"></i>
-            <p>vgas abertas </p>
-        </div>
-
     </section>
     <section class="ocards">
         <div class="cards">
             
                 <div class="card">
                 <i class="fa-solid fa-briefcase"></i>
-                <h6> vagas atualizadas</h6>
-                <p>novas oportunidades todos os dias para vc não oerder nenhuma chance.</p>
+                <h6> Encontre oportunidades</h6>
+                <p>Encontre novas oportunidades de forma rápida e fácil.</p>
                 </div>
 
                 
                 <div class="card">
                 <i class="fa-solid fa-briefcase"></i>
-                <h6> vagas atualizadas</h6>
-                <p>novas oportunidades todos os dias para vc não oerder nenhuma chance.</p>
+                <h6> Sua região</h6>
+                <p>Encontre oportunidades próximas de você.</p>
                 </div>
 
                 
                 <div class="card">
                 <i class="fa-solid fa-briefcase"></i>
-                <h6> vagas atualizadas</h6>
-                <p>novas oportunidades todos os dias para vc não oerder nenhuma chance.</p>
+                <h6> Encontre profissionais</h6>
+                <p>Contrate pessoas autônomas para realizar serviços de forma prática e segura.</p>
                 </div>
         </div>
-
+        
     </section>
     </main>
     <footer>
-
     </footer>
+    <script src="scipt.js"></script>
 </body>
 </html>
