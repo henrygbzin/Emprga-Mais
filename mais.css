@@ -472,4 +472,12 @@ footer img{
 .btn {
     height: 40px;
 }
+select{
+   background: transparent;
+    outline: none;
+    border: none;
+    color: white;
+
+
+}
 }
