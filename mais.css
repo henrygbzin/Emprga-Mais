@@ -470,7 +470,19 @@ footer img{
 .card p{
     font-size: 12px;
 }
-.btn {
-    height: 40px;
-}        
+.barra input,
+.barra select,
+.barra .btn{
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.barra select{
+    background: rgba(59,130,246,.25);
+    padding: 12px;
+}
+
+.barra .btn{
+    height: 50px;
+}
 }
