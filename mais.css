@@ -417,6 +417,7 @@ footer img{
          flex: 1;
     }
     .barra{
+    background-color: rgba(59,130,246,.25);
     margin-bottom: 5%;
     box-sizing: border-box;
     justify-content: flex-start;
