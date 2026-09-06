@@ -477,7 +477,7 @@ footer img{
     }
     #logo {
     position: absolute;
-    left: 50%;
+    left: 40%;
     transform: translateX(-50%);
 }
 .cards{
