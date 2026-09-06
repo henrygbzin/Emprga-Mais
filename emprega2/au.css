@@ -3,7 +3,7 @@
 }
 body{
     margin: 0px;
-    background-color:#060B1F;
+    background-color:#030a24;
 }
 nav{
     justify-content: flex-start;
@@ -29,7 +29,7 @@ h1{
 }
 span{
     color: transparent;
-    background: linear-gradient(90deg, #2563FF, #8B5CF6);
+    background:linear-gradient(90deg,#00A8FF,#2563FF);
     background-clip: text;
  
 }
@@ -109,8 +109,10 @@ header{
     transition: .4s;
     border:none;
     padding: 5px;
-    margin: 0;
-    
+    margin: 0;   
+}
+.perfil img{
+    width: 70px;
 }
 #azul:hover{
     transform: scale(1.05);
@@ -127,7 +129,7 @@ header{
     height: 10px;
     padding: 20px;
     align-items: center;
-    box-shadow: 0 4px 12px rgb(55, 57, 182);
+    box-shadow:0 0 30px rgba(0,168,255,.25);
 }
 select{
     background:transparent;
@@ -144,7 +146,7 @@ input{
 .btn{
     cursor: pointer;
     color: white;
-    background: linear-gradient(90deg, #2563FF, #8B5CF6);
+    background:linear-gradient(90deg,#00A8FF,#2563FF);
     border-radius: 5px;
     border: none;
     font-size: 16px;
@@ -210,8 +212,9 @@ i{
     display: flex;
     align-items: center;
     justify-content: center;
-    background: #0b1c43;
-    border: 1px solid #214a9b;
+    background:#0B1C43;
+    border:1px solid #1648A8;
+    color:#00A8FF;
     border-radius: 12px;
     font-size: 20px;
 
@@ -239,7 +242,7 @@ i{
 .destaque .import{
     font-size: 15px;
     color: transparent;
-    background: linear-gradient(90deg, #2563FF, #8B5CF6);
+    background:linear-gradient(90deg,#00A8FF,#2563FF);
     background-clip: text;
 
 }
@@ -263,7 +266,7 @@ i{
     transition: .4s;
     cursor: pointer;
     overflow: hidden;
-    box-shadow: 0 0 5px #8B5CF6;
+    box-shadow:0 0 30px rgba(0,168,255,.25);
     background:linear-gradient(90deg, #2563FF, #8B5CF6);
 }
 .card > *{
@@ -271,7 +274,7 @@ i{
     z-index: 1;
 }
 .card:hover{
-    box-shadow: 0 0 15px #8B5CF6;
+    box-shadow:0 0 30px rgba(0,168,255,.25);
     transform: translateY(-8px) scale(1.05);
     
 }
@@ -286,8 +289,8 @@ i{
     height: 70px;
     border-radius: 50%;
     background: #0B1C43;
-    border: 1px solid #8B5CF6;
-    box-shadow: 0 0 15px #8B5CF6;
+    border:solid rgba(0,168,255,.25);
+    box-shadow:0 0 30px rgba(0,168,255,.25);
 }
 .card h4{
     font-size: 15px;
@@ -474,7 +477,7 @@ footer img{
     }
     #logo {
     position: absolute;
-    left: 40%;
+    left: 50%;
     transform: translateX(-50%);
 }
 .cards{
