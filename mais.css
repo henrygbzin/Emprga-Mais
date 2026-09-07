@@ -307,11 +307,10 @@ i{
     right: 1px;
     bottom: 1px;
     left: 1px;
-    background: #060B1F;
     z-index: 0;
     border-radius: 18px;
-    background: url("FUNDO.png") bottom center / 100% auto no-repeat,
-    #060B1F;
+    background: url("fundo\ p.png") bottom center / 100% auto no-repeat,
+    #000724;
 }
 .card hr{
     border: none;
