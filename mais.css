@@ -455,6 +455,9 @@ footer img{
         width: 100%;
         box-sizing: border-box;
     }
+    .destaque:active{
+    transform:scale(0.97);
+}
        .para{
         margin: 0px;
        }
