@@ -456,6 +456,7 @@ footer img{
         box-sizing: border-box;
     }
      .destaque.clicado {
+        transition: 4.0s;
         transform: scale(0.97);
       }
        .para{
