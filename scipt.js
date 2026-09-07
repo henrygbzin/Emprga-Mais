@@ -1,5 +1,4 @@
 
-alert("JS funcionando");
 const botaoperfil=document.getElementById("azul")
 botaoperfil.addEventListener("click",function(){
     document.getElementById("painel")
@@ -14,6 +13,7 @@ botaomenu.addEventListener("click",function(){
 const destaquegld =document.getElementsByClassName("destaque")
 for (let i = 0; i < destaquegld.length; i++) {
   destaquegld[i].addEventListener("click", function(){
+    alert("clicou")
     destaquegld[i].classList.toggle("clicado")
 
 })
