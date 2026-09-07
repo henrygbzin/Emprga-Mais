@@ -1,4 +1,5 @@
 
+alert("JS funcionando");
 const botaoperfil=document.getElementById("azul")
 botaoperfil.addEventListener("click",function(){
     document.getElementById("painel")
